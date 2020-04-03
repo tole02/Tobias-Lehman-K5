@@ -1,8 +1,7 @@
 header{
     background-color:#C4C4C4;
-    position:absolute;
     width: 100%;
-    height: 22%;
+    height: 220px;
 }
 #star1{
     height:150px;
@@ -76,8 +75,8 @@ header{
 }
  #item1{
     position:absolute;
-    left:25%;
-    top:238px;
+    left:23%;
+    top:290px;
     width:1030px;
     height:199px;
     background: #F2F2F2;
@@ -91,19 +90,73 @@ header{
  }
  #item2{
     position:absolute;
-    left:1200px;
-    top:350px;
+    left:1160px;
+    top:410px;
     font-size:36px;
     font-family: 'Work Sans', sans-serif;
  }
  #item3{
-     position:absolute;
-     font-size:36px;
-     font-family:'Work Sans', sans-serif;
-     display:flex;
-     align-items:center;
-    bottom: 180px;
+    position:absolute;
+    font-size:36px;
+    font-family:'Work Sans', sans-serif;
+    display:flex;
+    align-items:center;
+    top:600px;
+    left:330px;
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    border-color:red;
+    padding-bottom:30px;
+    border-top-style:solid;
+    border-top-width:2px;
+    padding-top:30px;
  }
+ #mine{
+    height:300px;
+    width:550px;
+}
+#item4{
+    position:absolute;
+    font-size:36px;
+    font-family:'Work Sans', sans-serif;
+    display:flex;
+    align-items:center;
+    top:1000px;
+    left:340px;
+    padding-bottom:40px;
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    border-color:red;
+    margin-bottom:200px;
+}
+#oilrig{
+    height:300px;
+    width:600px;
+}
+.test{
+    color:white;
+}
+footer{
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    height:100px;
+    width:100%;
+    background-color:#4F4F4F;
+}
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+#container {
+    min-height:100%;
+    position:relative;
+}
+#body {
+    padding:10px;
+    padding-bottom:100px;   
+}
  @media only screen and (max-width: 600px){
     #star1{
         height:100px;
