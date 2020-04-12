@@ -22,6 +22,10 @@ header{
      left:35px;
      bottom:35px;
  }
+#name, a{
+    text-decoration: none;
+    color:#EB5757;
+}
  #name{
      position:relative;
      font-size:60px;
@@ -129,6 +133,44 @@ header{
     border-color:red;
     margin-bottom:200px;
 }
+#item5{
+    display:grid;
+    grid-template-columns:30px 10px 600px 10px 30px;
+    grid-template-rows:135px 30px 135px;
+    position:relative;
+    width:1000px;
+    height:100px;
+    left:650px;
+    top:100px;
+}
+#testimage{
+    height:300px;
+    width:600px;
+    grid-column-start:3;
+    grid-column-end:4;
+}
+#imagebtn1{
+    grid-row-start:2;
+    grid-row-end:3;
+    grid-column-start:1;
+    grid-column-end:2;
+    font-size:16px;
+    border-style:none;
+    background-color:#C4C4C4;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+}
+#imagebtn2{
+    grid-row-start:2;
+    grid-row-end:3;
+    grid-column-start:5;
+    grid-column-end:6;
+    font-size:16px;
+    border-style:none;
+    background-color:#C4C4C4;
+    border-radius:50%;
+}
 #oilrig{
     height:300px;
     width:600px;
@@ -136,18 +178,48 @@ header{
 .test{
     color:white;
 }
-footer{
-    position:fixed;
-    bottom:0px;
-    left:0px;
-    height:100px;
-    width:100%;
-    background-color:#4F4F4F;
+#item6{
+    position:relative;
+    left:480px;
+    top:350px;
+    width:1030px;
+    height:199px;
+    background: #F2F2F2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size:30px;
+    font-family:'Work Sans', sans-serif;
+    text-align:left;
+    padding-left:30px;
+    padding-top:40px;
+}
+#item7{
+    position:relative;
+    display:flex;
+    align-items:center;
+}
+#businessman{
+    height:400px;
+    width:700px;
+    margin-left:300px;
+    margin-top:100px;
+}
+#infotext{
+    font-size:36px;
+    font-family:'Work Sans', sans-serif;
+}
+#item8{
+    display:flex;
+    align-items:center;
+    margin-left:570px;
+    margin-top:200px;
+}
+.logo{
+    height:200px;
+    width:200px;
 }
 html, body {
     margin:0;
     padding:0;
-    height:100%;
 }
 #container {
     min-height:100%;
@@ -157,21 +229,179 @@ html, body {
     padding:10px;
     padding-bottom:100px;   
 }
+#bottom{
+    background-color:#3D3D3D;
+    width:100%;
+    height:100px;
+    position:absolute;
+    top:1450px;
+    color:white;
+    font-size:30px;
+    font-family:'Work Sans', sans-serif;
+}
+.author{
+    margin-left:50px;
+    margin-top:30px;
+}
  @media only screen and (max-width: 600px){
     #star1{
-        height:100px;
-        width:100px;
+        height:70px;
+        width:70px;
         left:5px;
         top:30px;
     }
     #star2{
-        height:50px;
-        width:50px;
-        left:25px;
-        top:25px;
+        height:30px;
+        width:30px;
+        left:20px;
+        top:20px;
     }
     #name{
-        font-size:45px;
-        left:100px;
+        font-size:23px;
+        left:80px;
+        bottom:20px;
+        width:200px;
+    }
+    .dropbtn {
+        background-color: #C4C4C4;
+        color: white;
+        padding: 16px;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+    }
+    .dropdown {
+    position: relative;
+    display: inline-block;
+    left:290px;
+    bottom:90px;
+    }
+    header{
+        height:130px;
+    }
+    #item1{
+        position:absolute;
+        left:10px;;
+        top:160px;
+        width:330px;
+        height:199px;
+        background: #F2F2F2;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: 'Work Sans', sans-serif;
+        font-size:16px;
+        padding-top:30px;
+        padding-left:10px;
+        font-style:italic;
+     }
+     #item2{
+        position:absolute;
+        left:200px;
+        top:320px;
+        font-size:16px;
+        font-family: 'Work Sans', sans-serif;
+     }
+     #item3{
+        position:absolute;
+        font-size:14px;
+        font-family:'Work Sans', sans-serif;
+        display:flex;
+        align-items:center;
+        top:400px;
+        left:10px;
+        border-bottom-style:solid;
+        border-bottom-width:2px;
+        border-color:red;
+        padding-bottom:30px;
+        border-top-style:solid;
+        border-top-width:2px;
+        padding-top:30px;
+     }
+     #mine{
+        height:130px;
+        width:150px;
+    }
+    #item4{
+        position:absolute;
+        font-size:14px;
+        font-family:'Work Sans', sans-serif;
+        display:flex;
+        align-items:center;
+        top:630px;
+        left:10px;
+        padding-bottom:40px;
+        border-bottom-style:solid;
+        border-bottom-width:2px;
+        border-color:red;
+        margin-bottom:200px;
+    }
+    #oilrig{
+        height:130px;
+        width:200px;
+    }
+    #bottom{
+        background-color:#3D3D3D;
+        width:100%;
+        height:100px;
+        position:absolute;
+        top:1000px;
+        color:white;
+        font-size:30px;
+        font-family:'Work Sans', sans-serif;
+    }
+    #item5{
+    display:grid;
+    grid-template-columns:30px 10px 270px 10px 30px;
+    grid-template-rows:65px 30px 55px;
+    position:relative;
+    width:300px;
+    height:100px;
+    left:10px;
+    top:10px;
+    }
+    #testimage{
+        height:150px;
+        width:270px;
+        grid-column-start:3;
+        grid-column-end:4;
+    }
+    #item6{
+        position:relative;
+        left:10px;
+        top:80px;
+        width:300px;
+        height:110px;
+        background: #F2F2F2;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-size:14px;
+        font-family:'Work Sans', sans-serif;
+        text-align:left;
+        padding-left:30px;
+        padding-top:10px;
+    }
+    #item7{
+        position:relative;
+        display:flex;
+        align-items:center;
+    }
+    #businessman{
+        height:180px;
+        width:200px;
+        margin-left:5px;
+        margin-top:30px;
+    }
+    #infotext{
+        font-size:14px;
+        font-family:'Work Sans', sans-serif;
+    }
+    #item8{
+        display:flex;
+        align-items:center;
+        margin-left:10px;
+        margin-top:100px;
+        margin-right:10px;
+    }
+    .logo{
+        height:100px;
+        width:100px;
     }
 }
